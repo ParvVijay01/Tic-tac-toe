@@ -12,7 +12,7 @@ int main()
     char mark;
     do {
         drawBoard();
-        system("color 17");
+        system("color 7D");
         player = (player % 2) ? 1 : 2;
         printf("Player %d, enter the choice : ",player);
         scanf("%d",&choice);
